@@ -1,50 +1,15 @@
-# Mergington High School Activities API
+# GitHub Copilot の始め方
 
-A super simple FastAPI application that allows students to view and sign up for extracurricular activities.
+<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
-## Features
+やあ ishikawa-ao!
 
-- View all available extracurricular activities
-- Sign up for activities
+Mona です。演習の準備ができました。楽しんでください！💚
 
-## Getting Started
+ペースは自分で決めて大丈夫です。休憩も自由に取ってください！☕️
 
-1. Install the dependencies:
+[![](https://img.shields.io/badge/演習へ移動-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/ishikawa-ao/study1-copilot/issues/1)
 
-   ```
-   pip install fastapi uvicorn
-   ```
+---
 
-2. Run the application:
-
-   ```
-   python app.py
-   ```
-
-3. Open your browser and go to:
-   - API documentation: http://localhost:8000/docs
-   - Alternative documentation: http://localhost:8000/redoc
-
-## API Endpoints
-
-| Method | Endpoint                                                          | Description                                                         |
-| ------ | ----------------------------------------------------------------- | ------------------------------------------------------------------- |
-| GET    | `/activities`                                                     | Get all activities with their details and current participant count |
-| POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Sign up for an activity                                             |
-
-## Data Model
-
-The application uses a simple data model with meaningful identifiers:
-
-1. **Activities** - Uses activity name as identifier:
-
-   - Description
-   - Schedule
-   - Maximum number of participants allowed
-   - List of student emails who are signed up
-
-2. **Students** - Uses email as identifier:
-   - Name
-   - Grade level
-
-All data is stored in memory, which means data will be reset when the server restarts.
+© 2025 GitHub ・[行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)・[MIT ライセンス](https://gh.io/mit)

@@ -56,6 +56,46 @@ activities = {
     }
 }
 
+# Add more activities to the database
+activities.update({
+    "バスケットボール部": {
+        "description": "バスケットボールのスキルを向上させ、試合に参加する",
+        "schedule": "月曜日と水曜日 午後4時～午後5時30分",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+    },
+    "サッカー部": {
+        "description": "サッカーの練習と試合",
+        "schedule": "火曜日と金曜日 午後3時30分～午後5時",
+        "max_participants": 18,
+        "participants": ["ryan@mergington.edu", "lucas@mergington.edu"]
+    },
+    "美術クラブ": {
+        "description": "絵画、素描、彫刻などの芸術技法を学ぶ",
+        "schedule": "水曜日 午後3時30分～午後5時",
+        "max_participants": 15,
+        "participants": ["lucy@mergington.edu"]
+    },
+    "音楽部": {
+        "description": "楽器の演奏と音楽理論の学習",
+        "schedule": "木曜日 午後4時～午後5時30分",
+        "max_participants": 20,
+        "participants": ["music@mergington.edu"]
+    },
+    "数学オリンピック": {
+        "description": "数学の問題解決スキルを向上させ、オリンピックに参加する",
+        "schedule": "土曜日 午前10時～正午",
+        "max_participants": 12,
+        "participants": ["math_student@mergington.edu"]
+    },
+    "科学実験室": {
+        "description": "物理、化学、生物学の実験を通じて科学を学ぶ",
+        "schedule": "火曜日と木曜日 午後4時30分～午後5時30分",
+        "max_participants": 16,
+        "participants": ["science@mergington.edu", "researcher@mergington.edu"]
+    }
+})
+
 
 @app.get("/")
 def root():
